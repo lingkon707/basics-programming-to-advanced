@@ -1,0 +1,15 @@
+JavaScript looping syntaxes include:
+
+for
+while
+do...while
+for...in
+for...of
+
+forEach()
+map()
+for await...of
+
+
+Link:
+Tree: http://www.geeksforgeeks.org/javascript/loops-in-javascript  

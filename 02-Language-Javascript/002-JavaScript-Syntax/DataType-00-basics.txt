@@ -1,0 +1,32 @@
+In JavaScript, 
+ata types are divided into 2
+= primitive and non-primitive (reference) types.
+
+01. Primitive Data Types:
+(Immutable, stored directly in memory)
+
+⚡ Total = 7 primitive data types
+String
+Number
+BigInt
+Boolean
+Undefined
+Null
+Symbol
+
+
+02. Non-Primitive (Reference) Data Types:
+(Stored as references, mutable)
+
+Object → Collection of key-value pairs
+Array → Ordered list of values
+Function → First-class objects that can be assigned, passed, or returned
+Date, RegExp, Map, Set, WeakMap, WeakSet → Built-in object types
+
+
+| Category      | Data Types                                                        |
+| ------------- | ----------------------------------------------------------------- |
+| Primitive     | String, Number, BigInt, Boolean, Undefined, Null, Symbol          |
+| Non-Primitive | Object, Array, Function, Date, RegExp, Map, Set, WeakMap, WeakSet |
+
+
