@@ -1,0 +1,39 @@
+Chapter:1 : INTRO AND SETUP 0-04
+
+Chapter:2 Basic 05-19
+
+Chapter:3 Logic and Conditions 20-27
+
+Chapter:4 Loops & Iterations 28-35
+
+Chapter:5 String 36-41
+
+Chapter:6 Arrays 42-49
+
+Chapter:7 Objects 50-57
+
+Chapter:8 Function in JS 58-66
+
+Chapter:9 Functional Programming in JavaScript 67-82
+
+Chapter:10 JavaScript Engine 83-96
+
+Chapter:11 OOP 97-105
+
+Chapter:12  Object Oriented in Javascript 106-119
+
+Chapter:13 Inheritance 120-128
+
+Chapter:14 Inheritance2 129-136
+
+Chapter:15 ES6  137-168
+
+Chapter:16  Error in Javascript 169-175
+
+Chapter:17 Asynchronous Programming 176-193
+
+Chapter:18 DOM 194-217
+
+Chapter:19 Library 218-225
+
+NEXT ALAP ................ HM NAYEM THANKS
