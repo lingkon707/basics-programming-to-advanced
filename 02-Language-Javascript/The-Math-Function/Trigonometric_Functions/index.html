@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigonometric Functions</title>
+</head>
+<body>
+  <h1>Trigonometric Functions in JavaScript</h1>
+
+  <script>
+    const angle = Math.PI / 4; 
+
+    const sine = Math.sin(angle);
+    const cosine = Math.cos(angle);
+    const tangent = Math.tan(angle);
+
+    console.log("Angle (radians):", angle);
+    console.log("sin(angle):", sine);
+    console.log("cos(angle):", cosine);
+    console.log("tan(angle):", tangent);
+
+    document.body.innerHTML += `<p>Angle (radians): ${angle}</p>`;
+    document.body.innerHTML += `<p>sin(angle): ${sine}</p>`;
+    document.body.innerHTML += `<p>cos(angle): ${cosine}</p>`;
+    document.body.innerHTML += `<p>tan(angle): ${tangent}</p>`;
+  </script>
+</body>
+</html>
+
+<!-- Explanation:
+
+Math.sin(x) → sine of angle x (in radians)
+Math.cos(x) → cosine of angle x (in radians)
+Math.tan(x) → tangent of angle x (in radians) -->

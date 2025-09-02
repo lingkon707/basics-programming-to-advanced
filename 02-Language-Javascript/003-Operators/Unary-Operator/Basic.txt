@@ -1,0 +1,23 @@
+The typeof operator in JavaScript is a unary operator used to 
+determine the data type of a given value or variable. 
+It returns a string indicating the type. 
+
+## Examples:
+typeof "hello" returns "string"
+typeof 123 returns "number"
+typeof true returns "boolean"
+typeof undefined returns "undefined"
+typeof null returns "object" (This is a known quirk/bug in JavaScript)
+typeof {} returns "object"
+typeof [] returns "object" (Arrays are a type of object in JavaScript)
+typeof function() {} returns "function"
+
+## Important Considerations:
+
+1. typeof returns "object" for null, arrays, and regular objects. 
+To differentiate between these, other methods like Array.isArray() 
+or instanceof are often used.
+
+2.typeof is useful for checking primitive types and functions, but 
+for more specific object types, instanceof or Object.prototype.toString.call() 
+provide more precise results.

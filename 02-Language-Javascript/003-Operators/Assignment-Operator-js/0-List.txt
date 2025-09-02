@@ -1,0 +1,9 @@
+Assignment Operators:
+Used to assign values to variables.
+= (Assignment)
++= (Add and assign)
+-= (Subtract and assign)
+*= (Multiply and assign)
+/= (Divide and assign)
+%= (Modulus and assign)
+**= (Exponentiation and assign)

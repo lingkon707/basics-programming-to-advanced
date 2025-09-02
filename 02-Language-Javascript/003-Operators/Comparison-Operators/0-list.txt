@@ -1,0 +1,10 @@
+Comparison Operators:
+Used to compare two values and return a boolean result (true or false).
+== (Loose equality - compares value only)
+=== (Strict equality - compares value and type)
+!= (Loose inequality)
+!== (Strict inequality)
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)

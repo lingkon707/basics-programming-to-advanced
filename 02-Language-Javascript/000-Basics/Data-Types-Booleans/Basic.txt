@@ -1,0 +1,19 @@
+## Two Values:
+Booleans represent the fundamental concepts of true and false, or yes and no. 
+
+
+## Logical Foundation:
+The concept stems from Boolean algebra, a branch of mathematics that deals with 
+logical statements. 
+
+
+## Conditional Logic:
+In programming, Booleans are used in conditional statements (like if statements) 
+and loops to control which parts of a program are executed or repeated. 
+
+
+*****
+true and false are boolean data types
+true and false are the only possible boolean values
+true and false must be written in lowercase
+true and false must be written without quotes

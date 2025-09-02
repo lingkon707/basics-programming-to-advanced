@@ -1,0 +1,4 @@
+condition ? trueResult : falseResult
+
+It’s shorter than if-else but works the same.
+

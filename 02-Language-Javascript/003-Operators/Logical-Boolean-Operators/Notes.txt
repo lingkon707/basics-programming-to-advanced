@@ -1,0 +1,3 @@
+AND: Returns true only if both sides are true. 
+OR: Returns true if at least one side is true. 
+NOT: Returns the opposite of a Boolean value (e.g., NOT true is false). 

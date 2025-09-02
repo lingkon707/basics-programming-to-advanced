@@ -1,0 +1,15 @@
+✅ Friend Tip:
+
+& → Friends they both know
+
+| → All friends combined
+
+^ → Friends only one knows
+
+~ → Everyone except this friend
+
+<< → Friend brings double friends
+
+>> → Friend shares half friends
+
+>>> → Same as >> but ignores sign

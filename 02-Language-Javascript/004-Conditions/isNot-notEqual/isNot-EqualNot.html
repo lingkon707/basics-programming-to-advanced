@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Site Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-top: 20px;
+      background: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Business Dashboard Simulation</h1>
+
+  <!-- Login check -->
+  <h2>Login Check</h2>
+  <input type="text" id="username" placeholder="Enter username">
+  <button onclick="checkLogin()">Login</button>
+  <p id="loginResult"></p>
+
+  <!-- Subscription check -->
+  <h2>Subscription Status</h2>
+  <input type="checkbox" id="subscribed"> Subscribed
+  <button onclick="checkSubscription()">Check Status</button>
+  <p id="subResult"></p>
+
+  <!-- Order status -->
+  <h2>Order Status</h2>
+  <input type="text" id="orderId" placeholder="Enter order ID">
+  <button onclick="checkOrder()">Check Order</button>
+  <p id="orderResult"></p>
+
+  <script>
+    // Login check using !=
+    function checkLogin() {
+      const username = document.getElementById("username").value;
+      const message = (username != "") ? `Welcome, ${username}!` : "Username cannot be empty";
+      document.getElementById("loginResult").textContent = message;
+    }
+
+    // Subscription status using !
+    function checkSubscription() {
+      const isSubscribed = document.getElementById("subscribed").checked;
+      const message = (!isSubscribed) ? "You are not subscribed. Please subscribe!" : "Thank you for subscribing!";
+      document.getElementById("subResult").textContent = message;
+    }
+
+    // Order status check using ternary and !=
+    function checkOrder() {
+      const orderId = document.getElementById("orderId").value;
+      const message = (orderId != "") ? `Order #${orderId} is being processed` : "Please enter a valid order ID";
+      document.getElementById("orderResult").textContent = message;
+    }
+  </script>
+
+</body>
+</html>

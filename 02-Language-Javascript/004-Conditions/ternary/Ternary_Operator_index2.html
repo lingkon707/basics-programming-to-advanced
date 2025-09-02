@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ternary Operator Input Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Check if Adult or Minor- Can Vote ?</h1>
+
+  <input type="number" id="ageInput" placeholder="Enter your age">
+  <button onclick="checkAge()">Check</button>
+
+  <p id="result"></p>
+
+  <script>
+    function checkAge() {
+      // Get value from input
+      const age = parseInt(document.getElementById("ageInput").value);
+
+      // Simple ternary condition
+      const status = (age >= 18) ? "Adult" : "Minor";
+
+      // Display result
+      document.getElementById("result").textContent = `Status: ${status}`;
+    }
+  </script>
+
+</body>
+</html>
