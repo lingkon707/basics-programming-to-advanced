@@ -1,0 +1,121 @@
+CSE-Friendly EEE Cheat Sheet
+
+1. Basic Electrical Concepts
+
+
+
+
+---
+
+Ohm's Law: V = I * R
+
+Power: P = V * I
+
+Series Circuits: R_total = R1 + R2 + ...
+
+Parallel Circuits: 1/R_total = 1/R1 + 1/R2 + ...
+
+
+2. Digital Electronics
+
+
+
+
+---
+
+Number Systems:
+
+Binary, Decimal, Hexadecimal
+
+
+Logic Gates:
+
+AND, OR, NOT, NAND, NOR, XOR
+
+
+Combinational Circuits: circuits without memory (e.g., adders, multiplexers)
+
+Sequential Circuits: circuits with memory (e.g., flip-flops, counters)
+
+Microprocessor Basics: CPU, memory, input/output ports
+
+
+3. Electronic Components
+
+
+
+
+---
+
+Resistors: limit current
+
+Capacitors: store energy temporarily
+
+Diodes: allow current in one direction
+
+LEDs: light-emitting diodes
+
+Transistors: switch or amplify current
+
+Relays: electrically operated switch
+
+Sensors: temperature, light, motion, etc.
+
+
+4. Signals and Systems
+
+
+
+
+---
+
+Analog vs Digital Signals
+
+ADC: Analog-to-Digital Converter
+
+DAC: Digital-to-Analog Converter
+
+Sampling: converting analog signals to digital
+
+
+5. Practical Skills
+
+
+
+
+---
+
+Using a multimeter: measure voltage, current, resistance
+
+Breadboard circuits: test components without soldering
+
+Arduino/Raspberry Pi basics: control LEDs, motors, sensors
+
+Embedded programming: C/C++ for microcontrollers
+
+
+6. Focus Areas for Software Engineers
+
+
+
+
+---
+
+Logic circuits and digital electronics
+
+Sensors, actuators, and interfacing
+
+Microcontroller basics and embedded software
+
+Signals and data conversion
+
+
+Notes:
+
+Skip heavy power electronics unless needed
+
+Understand hardware-software interaction
+
+Focus on concepts relevant to IoT, robotics, and embedded systems
+
+
