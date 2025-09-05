@@ -1,0 +1,24 @@
+Operating System (OS)
+
+An Operating System is a system software that acts as an interface between the user and computer hardware. Its main purpose is to manage hardware resources and provide an environment where application programs can run efficiently.
+
+Functions of an Operating System:
+1. Process Management – Handles process creation, scheduling, execution, and termination.
+2. Memory Management – Allocates and manages primary memory (RAM) for processes.
+3. File System Management – Organizes, stores, retrieves, and secures data in files.
+4. Device Management – Controls input/output (I/O) devices through drivers.
+5. Security & Protection – Provides authentication, authorization, and access control.
+6. User Interface – Offers CLI (Command Line Interface) or GUI (Graphical User Interface).
+
+Types of Operating Systems:
+- Batch OS – Executes jobs in batches without user interaction.
+- Time-Sharing OS – Allows multiple users to share resources simultaneously.
+- Distributed OS – Connects multiple computers to work as a single system.
+- Real-Time OS (RTOS) – Provides immediate response for time-critical tasks.
+- Multiprogramming & Multitasking OS – Enables running multiple programs concurrently.
+
+Examples:
+Windows, Linux, macOS, Android, iOS, Unix
+
+Summary:
+The Operating System is the backbone of computer systems, ensuring smooth coordination between hardware, software, and users.
