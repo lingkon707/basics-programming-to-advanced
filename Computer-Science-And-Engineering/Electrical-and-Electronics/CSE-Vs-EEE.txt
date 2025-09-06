@@ -1,0 +1,31 @@
+CSE vs EEE: Main Differences and Connections
+
+1. Full Form:
+- CSE: Computer Science and Engineering
+- EEE: Electrical and Electronics Engineering
+
+2. Focus Area:
+- CSE: Focuses on computing, software, algorithms, programming, databases, networking, AI, and software systems.
+- EEE: Focuses on electricity, electronics, circuits, power systems, control systems, and electrical machines.
+
+3. Core Subjects:
+- CSE: Data Structures, Operating Systems, Database Systems, Computer Networks, Machine Learning, Software Engineering.
+- EEE: Electrical Circuits, Control Systems, Power Electronics, Analog & Digital Electronics, Microprocessors, Electrical Machines.
+
+4. Skill Set:
+- CSE: Programming, software development, algorithm design, problem-solving, system design.
+- EEE: Circuit design, electronics troubleshooting, power system analysis, control and instrumentation.
+
+5. Career Opportunities:
+- CSE: Software developer, AI engineer, data scientist, network engineer, cybersecurity analyst.
+- EEE: Electrical engineer, electronics engineer, power system engineer, embedded systems designer, control engineer.
+
+6. Connections between CSE and EEE:
+- Embedded Systems: Combines electronics (EEE) and programming (CSE).
+- IoT (Internet of Things): Sensors, circuits (EEE) + software, networking (CSE).
+- Robotics & Automation: Mechanical & electrical design (EEE) + control algorithms & AI (CSE).
+- Smart Grids: Electrical power systems (EEE) + data analysis & automation (CSE).
+
+7. Summary:
+- CSE is primarily **software and computation oriented**, while EEE is primarily **hardware and electronics oriented**.
+- Modern technologies like IoT, Robotics, AI-driven electronics, and Smart Grids often require **integration of both CSE and EEE skills**.

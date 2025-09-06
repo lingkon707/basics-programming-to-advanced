@@ -1,0 +1,58 @@
+Operating System: Relevant Topics for CSE
+
+1. System Software vs Application Software
+   - Understanding types of software and the role of OS as system software.
+
+2. Process Management
+   - Processes and threads
+   - Process lifecycle (new, ready, running, waiting, terminated)
+   - CPU scheduling algorithms (FCFS, SJF, Round Robin, Priority)
+
+3. Memory Management
+   - Primary memory (RAM) concepts
+   - Paging, segmentation, virtual memory
+   - Memory allocation techniques
+
+4. File System Management
+   - File types and directories
+   - File allocation methods (contiguous, linked, indexed)
+   - File permissions and security
+
+5. I/O and Device Management
+   - Device drivers
+   - Interrupts
+   - Disk scheduling (FCFS, SSTF, SCAN, C-SCAN)
+
+6. Storage Management
+   - Secondary storage
+   - Disk structure
+   - RAID levels
+
+7. Security & Protection
+   - Authentication, authorization
+   - Access control mechanisms
+   - Threats and vulnerabilities
+
+8. Multitasking & Multiprocessing
+   - Context switching
+   - Concurrency and synchronization (semaphores, mutexes)
+   - Deadlock detection and prevention
+
+9. Distributed Operating Systems
+   - Concepts of distributed systems
+   - Resource sharing and coordination
+   - Examples: Hadoop, Cluster OS
+
+10. Real-Time Operating Systems (RTOS)
+    - Hard vs soft real-time systems
+    - Scheduling in RTOS
+
+11. Virtualization and Cloud OS
+    - Hypervisors
+    - Virtual machines
+    - Cloud-based OS concepts
+
+12. Networking & OS Interaction
+    - Socket programming basics
+    - OS role in network communication
+    - Client-server models

@@ -1,0 +1,24 @@
+
+Operating System: System Software vs Application Software
+
+1. Section/Sub-group:
+Operating System (OS) is categorized under System Software in Computer Science.
+
+2. System Software vs Application Software:
+- System Software:
+  Programs that manage hardware and provide a platform for running application software.
+  Examples: Operating Systems, Compilers, Device Drivers, Utility Programs.
+  
+- Application Software:
+  Programs designed for end-users to perform specific tasks.
+  Examples: MS Office, Web Browsers, Games.
+
+3. Operating System Sub-Groups (based on functionality):
+1. Batch Operating System – Executes jobs in batches without user interaction.
+2. Time-Sharing OS – Supports multiple users simultaneously.
+3. Distributed OS – Manages a group of networked computers as a single system.
+4. Real-Time OS (RTOS) – Provides immediate response for time-critical tasks.
+5. Multiprogramming / Multitasking OS – Runs multiple programs concurrently.
+
+Summary:
+Operating System is a key part of System Software, managing hardware resources and providing a platform for applications.

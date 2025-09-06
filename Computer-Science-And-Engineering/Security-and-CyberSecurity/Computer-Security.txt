@@ -1,0 +1,56 @@
+
+Computer Security
+
+1. Overview:
+Computer Security refers to the **protection of computer systems and networks** from theft, damage, unauthorized access, and disruption of services. It ensures **confidentiality, integrity, and availability (CIA triad)** of data.
+
+2. Goals of Computer Security:
+- **Confidentiality** – Protect sensitive information from unauthorized access.
+- **Integrity** – Ensure data is accurate and not tampered with.
+- **Availability** – Ensure resources are available to authorized users when needed.
+- **Authentication** – Verify identity of users and systems.
+- **Authorization** – Control access rights to resources.
+- **Non-repudiation** – Prevent denial of performing an action.
+
+3. Types of Threats:
+- **Malware** – Viruses, worms, Trojans, ransomware, spyware.
+- **Phishing** – Fraudulent attempts to steal sensitive data.
+- **Denial of Service (DoS)** – Overloading systems to make them unavailable.
+- **Man-in-the-Middle (MITM)** – Intercepting communication between parties.
+- **SQL Injection & XSS** – Web application attacks.
+- **Social Engineering** – Exploiting human trust to gain confidential information.
+
+4. Security Measures:
+- **Antivirus & Anti-malware Software** – Detects and removes malicious software.
+- **Firewalls** – Monitors and controls incoming/outgoing network traffic.
+- **Encryption** – Converts data into unreadable format for unauthorized users.
+- **Access Control** – Limits access based on roles and permissions.
+- **Secure Passwords & Authentication** – Multi-factor authentication (MFA), biometrics.
+- **Regular Updates/Patches** – Fixes vulnerabilities in software and OS.
+
+5. Cryptography:
+- **Symmetric Key Encryption** – Same key for encryption and decryption (e.g., AES).
+- **Asymmetric Key Encryption** – Public and private key pairs (e.g., RSA).
+- **Hash Functions** – Data integrity verification (e.g., SHA-256).
+
+6. Network Security:
+- Protects **LAN, WAN, Wi-Fi** networks from unauthorized access.
+- Implements **VPNs, IDS/IPS, secure protocols (HTTPS, SSH)**.
+- Monitors traffic for anomalies and intrusions.
+
+7. Physical Security:
+- Protects hardware and storage devices.
+- Includes **locks, surveillance, controlled access**, and backups.
+
+8. Security Policies:
+- Guidelines for employees and systems to ensure secure operations.
+- Includes **acceptable use policy, data protection policy, incident response plan**.
+
+9. Emerging Trends:
+- **Cloud Security** – Protecting cloud-based services and data.
+- **IoT Security** – Securing Internet of Things devices.
+- **Zero Trust Security** – Continuous verification for all users and devices.
+- **AI & ML in Security** – Detecting anomalies and predicting threats.
+
+Summary:
+Computer Security ensures that **data, applications, and networks** are protected against threats while maintaining confidentiality, integrity, and availability. Effective security combines **technology, policies, and user awareness**.

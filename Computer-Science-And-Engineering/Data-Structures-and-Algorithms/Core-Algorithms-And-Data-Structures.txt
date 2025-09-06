@@ -1,0 +1,67 @@
+
+Core Algorithms and Data Structures
+
+1. Overview:
+- **Data Structures**: Ways to organize, store, and manage data efficiently for access and modification.
+- **Algorithms**: Step-by-step procedures or formulas for solving problems and processing data in a finite number of steps.
+
+2. Importance:
+- Efficient algorithms + proper data structures lead to **optimized performance**, reduced memory usage, and faster computation.
+- Foundation for **software development, competitive programming, system design, databases, AI, and networking**.
+
+3. Core Data Structures:
+
+a) Linear Data Structures:
+- **Array**: Fixed-size collection of elements, stored contiguously. Fast access via index.
+- **Linked List**: Nodes connected via pointers. Types: Singly, Doubly, Circular.
+- **Stack**: LIFO (Last In First Out). Operations: push, pop, peek.
+- **Queue**: FIFO (First In First Out). Variants: Circular Queue, Priority Queue, Deque.
+
+b) Non-Linear Data Structures:
+- **Tree**: Hierarchical structure with nodes. Types: Binary Tree, Binary Search Tree, AVL Tree, B-Tree.
+- **Heap**: Complete binary tree used in priority queues. Types: Max Heap, Min Heap.
+- **Graph**: Collection of nodes (vertices) and edges. Types: Directed, Undirected, Weighted, Unweighted.
+- **Trie**: Prefix tree used for efficient string storage and retrieval.
+
+c) Hashing:
+- Stores data in a hash table using a key and hash function for **fast access**.
+- Handles collisions using chaining or open addressing.
+
+4. Core Algorithms:
+
+a) Sorting Algorithms:
+- **Bubble Sort, Selection Sort, Insertion Sort** – Simple but less efficient for large data.
+- **Merge Sort, Quick Sort, Heap Sort** – Efficient divide-and-conquer algorithms.
+- **Counting Sort, Radix Sort** – Non-comparison-based sorting for integers/strings.
+
+b) Searching Algorithms:
+- **Linear Search** – Sequential search in a list.
+- **Binary Search** – Efficient search in sorted arrays (O(log n)).
+- **Graph Search** – BFS (Breadth-First Search), DFS (Depth-First Search).
+
+c) Graph Algorithms:
+- **Shortest Path** – Dijkstra, Bellman-Ford.
+- **Minimum Spanning Tree** – Prim’s, Kruskal’s.
+- **Topological Sort** – Ordering tasks in DAG.
+
+d) Dynamic Programming (DP):
+- Breaks problems into overlapping subproblems.
+- Example: Fibonacci sequence, Knapsack problem, Longest Common Subsequence.
+
+e) Greedy Algorithms:
+- Make locally optimal choices to find global optimum.
+- Example: Activity Selection, Huffman Coding.
+
+f) Divide and Conquer:
+- Break problem into smaller subproblems, solve recursively, combine results.
+- Example: Merge Sort, Quick Sort, Binary Search.
+
+5. Complexity Analysis:
+- **Time Complexity** – Number of steps an algorithm takes.
+- **Space Complexity** – Memory used by an algorithm.
+- Big O, Big Theta, Big Omega notation for efficiency measurement.
+
+6. Summary:
+- **Data Structures** provide the framework to store and organize data.
+- **Algorithms** provide efficient procedures to process data.
+- Mastery of both is crucial for **problem-solving, coding interviews, competitive programming, and system design**.

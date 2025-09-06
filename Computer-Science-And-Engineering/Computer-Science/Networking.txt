@@ -1,0 +1,66 @@
+
+Computer Networking (CSE)
+
+1. Overview:
+- Computer Networking is the **practice of connecting multiple computers and devices** to share resources, data, and services.
+- Enables **communication, data transfer, and resource sharing** across local or global networks.
+
+2. Types of Networks:
+- **LAN (Local Area Network):** Covers a small geographic area, e.g., home, office.
+- **WAN (Wide Area Network):** Covers large geographic areas, e.g., the Internet.
+- **MAN (Metropolitan Area Network):** Covers a city or campus.
+- **PAN (Personal Area Network):** Very small network for personal devices, e.g., Bluetooth.
+- **WLAN (Wireless LAN):** Wireless local network using Wi-Fi.
+
+3. Network Topologies:
+- **Bus:** All devices share a single communication line.
+- **Star:** Devices connected to a central hub/switch.
+- **Ring:** Devices connected in a circular chain.
+- **Mesh:** Devices interconnected with multiple paths.
+- **Hybrid:** Combination of two or more topologies.
+
+4. Network Devices:
+- **Router:** Connects different networks and forwards data packets.
+- **Switch:** Connects devices in a LAN and forwards data based on MAC addresses.
+- **Hub:** Broadcasts data to all devices in a network.
+- **Access Point (AP):** Connects wireless devices to a wired network.
+- **Firewall:** Controls incoming and outgoing network traffic.
+- **Modem:** Converts signals for transmission over different mediums.
+
+5. Network Protocols:
+- **TCP/IP:** Standard protocol for Internet communication.
+- **HTTP/HTTPS:** Protocols for web browsing.
+- **FTP/SFTP:** File transfer protocols.
+- **SMTP/POP3/IMAP:** Email communication protocols.
+- **DNS:** Domain Name System maps domain names to IP addresses.
+
+6. IP Addressing:
+- **IPv4:** 32-bit addresses, e.g., 192.168.1.1
+- **IPv6:** 128-bit addresses, e.g., 2001:0db8::1
+- **Public vs Private IPs:** Public for internet, private for internal networks.
+- **Subnetting:** Dividing network into smaller sub-networks for efficient management.
+
+7. Network Models:
+- **OSI Model (7 layers):** Application, Presentation, Session, Transport, Network, Data Link, Physical.
+- **TCP/IP Model (4 layers):** Application, Transport, Internet, Network Access.
+
+8. Network Security:
+- **Encryption:** Protects data during transmission.
+- **VPN (Virtual Private Network):** Secure remote connection.
+- **Firewalls & IDS/IPS:** Monitor and prevent attacks.
+- **Authentication & Access Control:** Ensures only authorized users can access network resources.
+
+9. Wireless Networking:
+- **Wi-Fi:** Wireless LAN technology using IEEE 802.11 standards.
+- **Bluetooth:** Short-range wireless communication.
+- **5G/4G Cellular Networks:** Mobile communication networks.
+
+10. Network Services:
+- **File Sharing:** Access files across devices.
+- **Printing Services:** Shared network printers.
+- **Email Services:** Centralized communication system.
+- **Cloud Services:** Internet-based storage and applications.
+
+11. Summary:
+- Networking connects computers to **share resources, communicate, and access services** efficiently.
+- Understanding networking is critical in **software development, cybersecurity, cloud computing, and IoT**.

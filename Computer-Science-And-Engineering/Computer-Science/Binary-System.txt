@@ -1,0 +1,58 @@
+Binary System in Computer Science
+
+1. Overview:
+- The **binary system** is a number system that uses only **two digits: 0 and 1**.
+- It is the **foundation of digital computing**, as computers use electrical circuits that have two states: OFF (0) and ON (1).
+
+2. Base and Representation:
+- Binary is a **base-2 system**.
+- Each digit in binary is called a **bit** (binary digit).
+- Groups of bits form:
+  - **Nibble** = 4 bits
+  - **Byte** = 8 bits
+  - **Word** = Typically 16, 32, or 64 bits depending on the architecture
+
+3. Binary Number Examples:
+- Decimal 0 = Binary 0  
+- Decimal 1 = Binary 1  
+- Decimal 2 = Binary 10  
+- Decimal 5 = Binary 101  
+- Decimal 10 = Binary 1010  
+
+4. Binary Arithmetic:
+- **Addition**:
+  - 0 + 0 = 0  
+  - 0 + 1 = 1  
+  - 1 + 0 = 1  
+  - 1 + 1 = 10 (carry 1)  
+- **Subtraction**:
+  - 0 - 0 = 0  
+  - 1 - 0 = 1  
+  - 1 - 1 = 0  
+  - 0 - 1 = Borrow 1, result = 1  
+- **Multiplication**: Similar to decimal but only 0×0, 0×1, 1×0, 1×1.  
+- **Division**: Repeated subtraction in binary.
+
+5. Importance in Computers:
+- Computers **cannot understand decimal**; they use **electric signals** (high/low voltage) which correspond naturally to binary.
+- Every piece of data (numbers, text, images, video) is converted into **binary format** for storage and processing.
+
+6. Binary in Data Storage:
+- **Bits** are the smallest unit of information.
+- **Bytes and words** store larger data: characters, instructions, pixels.
+- Example:
+  - Letter 'A' in ASCII = 01000001  
+  - Number 5 = 00000101 (8-bit binary)
+
+7. Binary Logic:
+- Binary forms the basis for **logic gates** and **Boolean algebra**, which underpin all computing circuits.
+- Example: AND, OR, NOT gates operate on binary inputs.
+
+8. Conversion:
+- **Decimal → Binary**: Divide decimal number by 2 repeatedly; write remainders in reverse order.
+- **Binary → Decimal**: Sum of powers of 2 corresponding to positions of 1s.
+- **Binary ↔ Hexadecimal**: Each 4 bits = 1 hex digit (e.g., 1010 = A).
+
+9. Summary:
+- Binary is the **language of computers**, representing all information as 0s and 1s.
+- It enables **precise, reliable computation**, forms the basis of digital electronics, and is crucial for **programming, networking, and storage**.
