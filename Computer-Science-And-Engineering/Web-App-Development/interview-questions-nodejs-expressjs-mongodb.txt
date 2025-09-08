@@ -1,0 +1,66 @@
+===========================================
+    NODEJS, EXPRESSJS & MONGODB INTERVIEW QUESTIONS
+===========================================
+
+1. NODEJS BASICS
+----------------
+- What is Node.js and why is it used?
+- Difference between Node.js and traditional server-side frameworks
+- What is the event loop in Node.js?
+- Explain asynchronous vs synchronous code
+- What are callbacks, promises, and async/await?
+
+2. NODEJS MODULES
+-----------------
+- What are core modules in Node.js? Give examples
+- Difference between require() and import
+- How to create custom modules in Node.js
+- Explain CommonJS vs ES Modules
+
+3. EXPRESSJS BASICS
+------------------
+- What is Express.js and why is it used with Node.js?
+- How to create a simple server using Express
+- What is middleware in Express? Types of middleware
+- Difference between app.use() and app.get()/app.post()
+- How to handle routes and route parameters
+
+4. EXPRESSJS ADVANCED
+--------------------
+- How to handle errors in Express.js
+- Difference between Router() and app
+- How to implement authentication in Express
+- How to serve static files in Express
+- How to use template engines with Express (EJS, Pug, Handlebars)
+
+5. MONGODB BASICS
+-----------------
+- What is MongoDB and why is it used?
+- Difference between SQL and NoSQL databases
+- Explain documents, collections, and databases in MongoDB
+- What is _id in MongoDB?
+- How to insert, update, delete, and query data
+
+6. MONGODB ADVANCED
+------------------
+- What is aggregation in MongoDB?
+- Difference between find() and findOne()
+- What are indexes in MongoDB and why are they important?
+- How to handle relationships in MongoDB (embedded vs referenced documents)
+- What is Mongoose and why is it used with Node.js?
+
+7. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Create a REST API with Express.js and MongoDB
+- Implement CRUD operations for a resource (e.g., Users)
+- Connect Node.js application to MongoDB using Mongoose
+- Handle authentication and authorization
+- Implement query filters and sorting in MongoDB
+
+===========================================
+         FINAL TIP
+===========================================
+- Understand asynchronous programming in Node.js
+- Practice building REST APIs using Express.js and MongoDB
+- Learn Mongoose for database modeling
+- Be ready to write real code examples for CRUD, authentication, and queries

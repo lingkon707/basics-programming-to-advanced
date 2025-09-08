@@ -1,0 +1,73 @@
+===========================================
+       JAVASCRIPT INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC JAVASCRIPT
+-------------------
+- What are the data types in JavaScript?
+- Difference between var, let, and const
+- Explain hoisting in JavaScript
+- Difference between == and ===
+- What is closure and give an example
+- Difference between null and undefined
+- Explain "this" keyword in JavaScript
+- What is the difference between function declaration and function expression
+
+2. FUNCTIONS & SCOPE
+--------------------
+- What is an IIFE (Immediately Invoked Function Expression)?
+- Difference between call, apply, and bind
+- Explain lexical scope in JavaScript
+- Difference between arrow function and regular function
+
+3. OBJECTS & ARRAYS
+-------------------
+- How to clone an object in JavaScript?
+- Difference between shallow copy and deep copy
+- How to merge two arrays?
+- Difference between map, filter, and reduce
+
+4. ASYNC JAVASCRIPT
+-------------------
+- Difference between synchronous and asynchronous code
+- Explain callbacks and callback hell
+- What is a Promise? Explain then, catch, and finally
+- What is async/await and how it works
+- Difference between setTimeout and setInterval
+
+5. DOM & EVENTS
+---------------
+- What is DOM?
+- Difference between document.querySelector and document.getElementById
+- Explain event bubbling and event capturing
+- How to add and remove event listeners
+
+6. ADVANCED JAVASCRIPT
+----------------------
+- Explain prototype and prototype chain
+- What is event loop in JavaScript?
+- Difference between var, let, and const in block scope
+- Explain JavaScript modules (ES6)
+- What is strict mode?
+
+7. BROWSER & PERFORMANCE
+------------------------
+- Difference between localStorage, sessionStorage, and cookies
+- What is CORS and why it happens?
+- Explain debouncing and throttling
+- Difference between synchronous and asynchronous HTTP requests
+
+8. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Reverse a string in JavaScript
+- Check if a number is palindrome
+- Find duplicate values in an array
+- Flatten a nested array
+- Remove duplicates from an array
+
+===========================================
+       FINAL TIP
+===========================================
+- Be ready to explain your code
+- Use examples wherever possible
+- Practice both conceptual and coding questions

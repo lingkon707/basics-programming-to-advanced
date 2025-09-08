@@ -1,0 +1,47 @@
+===========================================
+   BACKEND FOR MOBILE APP VS WEB APP
+===========================================
+
+1. BACKEND BASICS
+-----------------
+- Backend = Server-side system that processes requests,
+  applies logic, connects to database, and returns responses.
+- Common Technologies:
+  * Node.js, Django, Laravel, Spring Boot, .NET
+  * REST API / GraphQL
+  * Database: MySQL, PostgreSQL, MongoDB, Firebase
+
+2. SAME BACKEND FOR BOTH
+------------------------
+- Both Mobile App + Web App can use the SAME backend.
+- Why?
+   * Both send requests → Backend API
+   * Backend processes → Database → Response
+   * Both receive data in JSON / XML format
+
+3. DIFFERENCE IN FRONTEND
+-------------------------
+- WEB APP FRONTEND
+   * Runs in browser
+   * Built with HTML, CSS, JavaScript, React, Angular, Vue
+   * Calls backend API using fetch/axios
+
+- MOBILE APP FRONTEND
+   * Runs on Android/iOS
+   * Built with Kotlin, Swift, Flutter, React Native
+   * Calls backend API using HTTP libraries (Retrofit, Alamofire, axios)
+
+4. FLOW EXAMPLE
+---------------
+[User Action] → [Frontend (Web/Mobile)] 
+→ API Request (https://api.myapp.com/login) 
+→ [Backend Server] → [Database] 
+→ Response (JSON) 
+→ Back to Frontend → Shown to User
+
+===========================================
+   FINAL ANSWER
+===========================================
+- Backend is the SAME for both Web App + Mobile App.
+- Only the frontend is different.
+- One backend can power multiple frontends (Web, Mobile, Desktop).

@@ -1,0 +1,74 @@
+===============================
+   WHAT IS WEB DEVELOPMENT?
+===============================
+
+Web Development = The process of creating websites or web applications 
+that run on the browser/internet.
+
+It has 3 main parts:
+1. Frontend (Client Side)
+2. Backend (Server Side)
+3. Database (Data Storage)
+
+
+===============================
+   FULL WEB DEVELOPMENT PROCESS
+===============================
+
+STEP 1: PLANNING
+----------------
+- Decide the purpose of the website
+- Target users
+- Create wireframes & flowcharts
+
+STEP 2: DESIGN
+--------------
+- UI/UX Design
+- Color scheme, typography, layout
+- Tools: Figma, Adobe XD, Sketch
+
+STEP 3: FRONTEND DEVELOPMENT
+----------------------------
+- Build the user interface
+- Languages: HTML, CSS, JavaScript
+- Frameworks: React, Next.js, Angular, Vue
+- Make responsive (Mobile + Desktop)
+
+STEP 4: BACKEND DEVELOPMENT
+---------------------------
+- Handles logic, security, and database connection
+- Languages: Node.js, PHP, Python, Java, C#
+- Frameworks: Express, Laravel, Django, Spring
+- Functions: Login, Register, APIs
+
+STEP 5: DATABASE
+----------------
+- Store and manage data
+- SQL: MySQL, PostgreSQL
+- NoSQL: MongoDB, Firebase
+
+STEP 6: TESTING
+---------------
+- Check for errors (bugs)
+- Browser compatibility
+- Security testing
+- Performance optimization
+
+STEP 7: DEPLOYMENT
+------------------
+- Host the website on a server
+- Services: Netlify, Vercel, AWS, DigitalOcean
+- Domain setup
+
+STEP 8: MAINTENANCE
+-------------------
+- Fix bugs
+- Add new features
+- Keep website updated and secure
+
+
+===============================
+   FINAL FLOW (SUMMARY)
+===============================
+Idea → Design → Frontend → Backend → Database → Testing → Deployment → Maintenance
+

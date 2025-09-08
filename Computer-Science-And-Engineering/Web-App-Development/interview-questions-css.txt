@@ -1,0 +1,64 @@
+===========================================
+         CSS INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC CSS
+------------
+- What is CSS and why is it used?
+- Difference between inline, internal, and external CSS
+- What are the different types of selectors in CSS?
+- Difference between relative, absolute, fixed, and sticky positioning
+- Explain the difference between "em", "rem", "px", "%"
+
+2. BOX MODEL
+------------
+- What is the CSS box model?
+- Explain content, padding, border, and margin
+- What is the difference between "content-box" and "border-box"?
+- How to remove default margin/padding in CSS?
+
+3. FLEXBOX & GRID
+-----------------
+- What is Flexbox and why is it used?
+- Difference between justify-content, align-items, and align-content
+- Explain flex-direction and flex-wrap
+- What is CSS Grid? Difference between grid-template-columns and grid-template-rows
+- How to create a responsive layout using Flexbox/Grid?
+
+4. STYLING & TEXT
+-----------------
+- How to center a div vertically and horizontally?
+- Difference between inline, inline-block, and block elements
+- Difference between relative, absolute, fixed, and sticky positioning
+- How to apply a gradient background in CSS?
+- Difference between "id" and "class" selectors
+
+5. ANIMATIONS & TRANSITIONS
+---------------------------
+- What is the difference between CSS transitions and animations?
+- How to create a keyframe animation?
+- Explain transform properties (scale, rotate, translate)
+- How to control animation timing (ease, linear, ease-in-out)?
+
+6. ADVANCED CSS
+----------------
+- Explain pseudo-classes and pseudo-elements
+- Difference between visibility:hidden and display:none
+- Difference between position:relative and position:absolute
+- What is z-index? How does it work?
+- What are media queries and why are they used?
+
+7. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Create a responsive navigation bar
+- Center an element both vertically and horizontally
+- Create a card with shadow and hover effect
+- Make a responsive image gallery using CSS Grid or Flexbox
+- Create a simple CSS animation (e.g., bouncing ball)
+
+===========================================
+         FINAL TIP
+===========================================
+- Be ready to explain your CSS code
+- Understand browser compatibility issues
+- Practice responsive designs and modern CSS features (Flexbox, Grid, Animations)

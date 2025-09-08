@@ -1,0 +1,68 @@
+===========================================
+           HTML INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC HTML
+-------------
+- What is HTML and why is it used?
+- Difference between HTML and HTML5
+- What are tags and elements in HTML?
+- Difference between block-level and inline elements
+- What are semantic elements in HTML?
+
+2. STRUCTURE & LAYOUT
+---------------------
+- Explain the basic structure of an HTML document
+- What is DOCTYPE and why is it used?
+- Difference between <div> and <span>
+- How to create lists in HTML? (ordered, unordered, definition)
+- Difference between <section>, <article>, <header>, <footer>, <nav>
+
+3. LINKS & MEDIA
+----------------
+- How to create hyperlinks in HTML?
+- Difference between absolute and relative URL
+- How to embed images, audio, and video in HTML?
+- What is the use of <iframe>?
+
+4. FORMS & INPUTS
+-----------------
+- How to create a form in HTML?
+- Explain input types in HTML5 (text, email, number, date, etc.)
+- Difference between GET and POST methods in forms
+- What is the use of <label>, <fieldset>, <legend>?
+
+5. ATTRIBUTES
+-------------
+- What are HTML attributes? Give examples
+- Difference between id and class
+- What is the use of data-* attributes?
+- Explain global attributes in HTML
+
+6. TABLES
+----------
+- How to create a table in HTML?
+- Difference between <thead>, <tbody>, <tfoot>
+- What are rowspan and colspan attributes?
+
+7. SEMANTIC & ACCESSIBILITY
+---------------------------
+- What is semantic HTML and why is it important?
+- What is the importance of alt attribute for images?
+- How to make HTML accessible for screen readers?
+
+8. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Create a simple HTML page with header, footer, and navigation
+- Build a contact form with input validation
+- Create a table for displaying product data
+- Embed a YouTube video using <iframe>
+- Make a simple HTML page with images and links
+
+===========================================
+          FINAL TIP
+===========================================
+- Understand HTML5 new elements
+- Practice semantic and accessible HTML
+- Know the difference between inline, block, and inline-block
+- Be able to write clean, structured HTML code

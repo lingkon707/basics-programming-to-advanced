@@ -1,0 +1,66 @@
+===========================================
+           REDUX INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC REDUX
+---------------
+- What is Redux and why is it used?
+- Difference between Redux and React's local state
+- Explain the core principles of Redux
+  * Single source of truth
+  * State is read-only
+  * Changes via pure functions (reducers)
+
+2. CORE CONCEPTS
+----------------
+- What is a store in Redux?
+- What is an action and action creator?
+- What is a reducer? How does it work?
+- Explain dispatch() in Redux
+- What is the difference between state and props in Redux?
+
+3. MIDDLEWARE
+-------------
+- What is middleware in Redux?
+- Explain redux-thunk and redux-saga
+- How does middleware help with asynchronous actions?
+- Difference between synchronous and asynchronous actions
+
+4. CONNECTING TO REACT
+---------------------
+- How to connect Redux with React components?
+- Difference between connect() HOC and useSelector/useDispatch hooks
+- What are Provider and store in React-Redux?
+- How to update the Redux state from a React component?
+
+5. ADVANCED CONCEPTS
+-------------------
+- Explain combineReducers
+- How to normalize Redux state
+- Explain reselect and memoization in Redux
+- Difference between local state, Redux state, and Context API
+- What is Redux Toolkit and why is it recommended?
+
+6. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Create a counter app using Redux
+- Implement a todo app with add, delete, and toggle status
+- Fetch data from an API and store it in Redux
+- Handle loading, success, and error states in Redux
+- Use Redux Toolkit to simplify store and reducers
+
+7. BEST PRACTICES
+-----------------
+- Keep state normalized
+- Avoid storing non-serializable data
+- Use middleware for async operations
+- Prefer Redux Toolkit over manual boilerplate
+- Structure actions, reducers, and selectors clearly
+
+===========================================
+         FINAL TIP
+===========================================
+- Understand Redux core concepts thoroughly
+- Practice connecting Redux with React
+- Be ready to explain asynchronous flows with middleware
+- Know modern Redux best practices (Redux Toolkit, hooks)

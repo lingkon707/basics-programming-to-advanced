@@ -1,0 +1,76 @@
+===========================================
+       TYPESCRIPT INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC TYPESCRIPT
+-------------------
+- What is TypeScript and why is it used?
+- Difference between TypeScript and JavaScript
+- What are types in TypeScript?
+- Explain type inference and type annotation
+- Difference between any, unknown, and never types
+
+2. VARIABLES & FUNCTIONS
+------------------------
+- Difference between var, let, and const in TypeScript
+- How to define optional and default parameters in functions
+- Explain function overloading in TypeScript
+- What are rest parameters?
+
+3. INTERFACES & TYPES
+---------------------
+- Difference between interface and type alias
+- How to define optional properties in interface
+- How to extend an interface
+- Explain readonly and index signature in interface
+
+4. CLASSES & OBJECT-ORIENTED
+-----------------------------
+- What is class in TypeScript? How is it different from JavaScript class?
+- Explain public, private, protected access modifiers
+- What is inheritance in TypeScript?
+- How to implement abstract classes and methods
+- What are getters and setters?
+
+5. GENERICS
+-----------
+- What are generics in TypeScript?
+- How to create a generic function
+- How to use generics with classes and interfaces
+- Explain constraints in generics
+
+6. MODULES & NAMESPACES
+-----------------------
+- What are modules in TypeScript?
+- Difference between import and require
+- What is a namespace and why is it used?
+- Difference between internal and external modules
+
+7. ADVANCED TYPES
+-----------------
+- What are union and intersection types?
+- Explain type guards and type assertions
+- What is keyof and typeof operators
+- What are mapped types
+
+8. ASYNC & PROMISES
+-------------------
+- How to use async/await in TypeScript
+- Difference between Promise<void> and Promise<any>
+- How to type an API response using interfaces
+
+9. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Create a TypeScript interface for a user object
+- Write a generic function to return the first element of an array
+- Implement a class with inheritance and access modifiers
+- Type a function that accepts multiple argument types
+- Use enums to define status codes
+
+===========================================
+         FINAL TIP
+===========================================
+- Understand type system thoroughly
+- Practice both basic and advanced types
+- Be able to write clean, strongly typed code
+- Know the differences between TypeScript and JavaScript

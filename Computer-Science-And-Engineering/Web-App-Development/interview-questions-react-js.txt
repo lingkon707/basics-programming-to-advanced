@@ -1,0 +1,85 @@
+===========================================
+        REACT.JS INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC REACT
+--------------
+- What is React.js and why is it used?
+- Difference between React and Angular/Vue
+- What are components in React?
+- Difference between Class Components and Functional Components
+- Explain JSX and why it is used
+
+2. STATE & PROPS
+----------------
+- What is state in React? How is it different from props?
+- How to update state correctly?
+- What are props? How to pass props between components?
+- Difference between controlled and uncontrolled components
+- Explain lifting state up
+
+3. LIFECYCLE METHODS
+--------------------
+- Explain React component lifecycle
+- Difference between componentDidMount, componentDidUpdate, componentWillUnmount
+- How are lifecycle methods replaced in Functional Components with hooks?
+
+4. HOOKS
+--------
+- What are React Hooks? Why are they used?
+- Explain useState, useEffect, useContext
+- What is useRef and when to use it?
+- Difference between useMemo and useCallback
+- How to create a custom hook?
+
+5. ROUTING
+----------
+- What is React Router?
+- Difference between BrowserRouter, HashRouter
+- How to create nested routes?
+- Explain route parameters and query parameters
+
+6. STATE MANAGEMENT
+-------------------
+- Difference between Context API and Redux
+- What is Redux? Explain actions, reducers, store
+- How to connect React component to Redux store?
+- What are middleware in Redux? (e.g., redux-thunk, redux-saga)
+
+7. PERFORMANCE & OPTIMIZATION
+-----------------------------
+- How to optimize React performance?
+- What is React.memo?
+- Difference between PureComponent and Component
+- Explain code splitting and lazy loading
+
+8. EVENTS & FORMS
+-----------------
+- How to handle events in React?
+- Difference between synthetic events and native events
+- How to handle forms in React?
+- How to validate form inputs?
+
+9. ADVANCED CONCEPTS
+--------------------
+- What are Higher Order Components (HOC)?
+- What are render props?
+- Explain portals in React
+- What is reconciliation in React?
+- Explain React Fiber architecture
+
+10. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Build a todo app with add, delete, edit functionality
+- Create a counter component using hooks
+- Build a form with validation
+- Implement a theme switcher (dark/light mode)
+- Fetch data from API and display in a list
+
+===========================================
+         FINAL TIP
+===========================================
+- Be ready to explain your React code
+- Understand both class and functional components
+- Practice state management (Context, Redux)
+- Practice modern React features (Hooks, Suspense, Lazy Loading)

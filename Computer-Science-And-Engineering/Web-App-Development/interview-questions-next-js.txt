@@ -1,0 +1,81 @@
+===========================================
+        NEXT.JS INTERVIEW QUESTIONS
+===========================================
+
+1. BASIC NEXT.JS
+----------------
+- What is Next.js and why is it used?
+- Difference between Next.js and React.js
+- What is SSR (Server-Side Rendering) in Next.js?
+- What is SSG (Static Site Generation)?
+- Explain ISR (Incremental Static Regeneration)
+- What is the difference between SSR, SSG, and CSR?
+
+2. ROUTING
+----------
+- How does routing work in Next.js?
+- Difference between pages directory and app directory (Next 13+)
+- How to create dynamic routes?
+- What is Link component and how is it used?
+- How to handle query parameters?
+
+3. DATA FETCHING
+----------------
+- Difference between getStaticProps, getServerSideProps, getStaticPaths
+- How to fetch data client-side in Next.js?
+- How to use SWR or React Query with Next.js?
+
+4. API ROUTES
+-------------
+- What are API routes in Next.js?
+- How to create an API endpoint?
+- Difference between API routes and backend server
+- How to handle POST and GET requests in Next.js API
+
+5. IMAGE & ASSETS
+-----------------
+- What is the next/image component and why use it?
+- How to optimize images in Next.js?
+- How to serve static files in public folder?
+
+6. STYLING
+----------
+- How to use CSS Modules in Next.js?
+- Difference between global CSS and module CSS
+- How to use Tailwind CSS in Next.js?
+- Can you use styled-components or emotion in Next.js?
+
+7. PERFORMANCE & OPTIMIZATION
+-----------------------------
+- What is Automatic Static Optimization?
+- How to use dynamic imports and code splitting?
+- How to enable caching and CDN in Next.js?
+- What is middleware in Next.js?
+
+8. AUTHENTICATION & SECURITY
+----------------------------
+- How to implement authentication in Next.js?
+- How to protect SSR and API routes?
+- Difference between JWT, session cookies, and NextAuth.js
+
+9. DEPLOYMENT
+-------------
+- How to deploy Next.js apps to Vercel?
+- Can you deploy to Netlify, AWS, or other platforms?
+- Difference between development and production builds
+
+10. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Build a blog with SSG and dynamic routing
+- Implement authentication using NextAuth.js
+- Fetch API data using getServerSideProps
+- Implement dark/light theme toggle
+- Create a responsive Next.js landing page
+
+===========================================
+         FINAL TIP
+===========================================
+- Understand both SSR and SSG
+- Practice Next.js routing and API routes
+- Learn deployment process (Vercel is preferred)
+- Know modern Next.js features (App Router, ISR, Middleware)

@@ -1,0 +1,70 @@
+===========================================
+           DATABASE INTERVIEW QUESTIONS
+===========================================
+
+1. DATABASE BASICS
+------------------
+- What is a database? Types of databases
+- Difference between DBMS and RDBMS
+- What is a primary key? What is a foreign key?
+- Difference between OLTP and OLAP
+- Explain normalization and denormalization
+
+2. SQL DATABASES
+----------------
+- What is SQL and why is it used?
+- Difference between SQL and MySQL/PostgreSQL
+- Explain SELECT, INSERT, UPDATE, DELETE commands
+- Difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+- What are indexes and how do they improve performance?
+- Difference between clustered and non-clustered indexes
+- Explain transactions, COMMIT, and ROLLBACK
+- What are views, stored procedures, and triggers?
+
+3. NO-SQL DATABASES
+-------------------
+- What is NoSQL and why is it used?
+- Difference between SQL and NoSQL
+- Types of NoSQL databases (Document, Key-Value, Column, Graph)
+- What is MongoDB? Explain collections and documents
+- What is denormalization in NoSQL?
+- How to handle relationships in NoSQL?
+
+4. PERFORMANCE & OPTIMIZATION
+-----------------------------
+- How to optimize database queries?
+- Explain indexing strategies
+- What is caching and why is it important?
+- Difference between vertical and horizontal scaling
+- How to handle database replication and sharding?
+
+5. DATABASE SECURITY
+-------------------
+- How to secure a database?
+- Difference between authentication and authorization
+- What are roles and privileges in SQL?
+- Explain SQL injection and how to prevent it
+
+6. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Write SQL query to find duplicate records
+- Create tables with proper primary and foreign keys
+- Query to get top N records
+- Design a database schema for an e-commerce app
+- Implement CRUD operations using SQL/NoSQL
+
+7. ADVANCED TOPICS
+------------------
+- Difference between ACID and BASE properties
+- What is CAP theorem?
+- What is database replication?
+- What is database partitioning and sharding?
+- Difference between OLTP and OLAP systems
+
+===========================================
+         FINAL TIP
+===========================================
+- Understand both relational and non-relational databases
+- Practice SQL queries and NoSQL CRUD operations
+- Be ready to discuss database design, normalization, and performance
+- Know database security best practices

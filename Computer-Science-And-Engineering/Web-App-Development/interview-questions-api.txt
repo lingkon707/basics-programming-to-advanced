@@ -1,0 +1,64 @@
+===========================================
+           API INTERVIEW QUESTIONS
+===========================================
+
+1. API BASICS
+-------------
+- What is an API and why is it used?
+- Difference between API, Web Service, and Microservice
+- Explain REST API and its principles
+- What is SOAP API? Difference between REST and SOAP
+- What are endpoints in an API?
+
+2. HTTP METHODS
+---------------
+- Difference between GET, POST, PUT, PATCH, DELETE
+- When to use GET vs POST
+- Explain idempotent and non-idempotent methods
+- What is the use of OPTIONS method?
+
+3. REQUEST & RESPONSE
+--------------------
+- What is JSON and XML? Which is preferred and why?
+- What are headers in API requests?
+- Difference between query parameters and path parameters
+- What are status codes? Explain 200, 201, 400, 401, 403, 404, 500
+
+4. AUTHENTICATION & SECURITY
+-----------------------------
+- Difference between authentication and authorization
+- What is OAuth and JWT?
+- How to secure an API?
+- What is API rate limiting?
+- What is CORS and how to handle it?
+
+5. API TESTING & TOOLS
+----------------------
+- How to test an API?
+- Tools for API testing: Postman, Insomnia, Swagger
+- What is automated API testing?
+- How to validate API response data?
+
+6. ADVANCED CONCEPTS
+-------------------
+- What is RESTful API design?
+- Explain versioning in API
+- Difference between synchronous and asynchronous API
+- What is GraphQL? Difference between REST and GraphQL
+- What are webhooks and callbacks?
+
+7. PRACTICAL / CODING QUESTIONS
+--------------------------------
+- Create a simple REST API using Node.js/Express
+- Implement CRUD operations for a resource
+- Connect API to a database and return JSON response
+- Handle errors and send proper status codes
+- Implement authentication using JWT/OAuth
+
+===========================================
+         FINAL TIP
+===========================================
+- Understand REST principles thoroughly
+- Know HTTP methods, headers, and status codes
+- Be ready to write and test APIs in real time
+- Practice connecting APIs to databases and handling errors
