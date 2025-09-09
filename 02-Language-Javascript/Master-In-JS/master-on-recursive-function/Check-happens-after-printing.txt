@@ -1,0 +1,39 @@
+Step-by-step execution:
+
+First call → dollar = 200
+
+Prints 200$
+
+200 > 800 → false
+
+Calls moneyBag(200 + 201) → moneyBag(401)
+
+Next call → dollar = 401
+
+Prints 401$
+
+401 > 800 → false
+
+Calls moneyBag(401 + 201) → moneyBag(602)
+
+Next call → dollar = 602
+
+Prints 602$
+
+602 > 800 → false
+
+Calls moneyBag(602 + 201) → moneyBag(803)
+
+Next call → dollar = 803
+
+Prints 803$ ✅
+
+803 > 800 → true → stops recursion
+
+Why 803 is printed:
+
+The check happens after printing.
+
+So the function prints first, then checks if it should stop.
+
+That’s why 803$ appears, even though you wanted 800$ as the max.

@@ -1,0 +1,15 @@
+** Pro Tip: Start small!
+Learn factorial, sum, reverse string, Fibonacci first.
+Then move to arrays, nested objects, menus, comments.
+After that, try real-world recursion in JS projects.
+
+## Recursion teaches you divide & conquer thinking:
+Break big problems into smaller subproblems
+Solve the small problems
+Combine the answers
+
+## When You Face Nested or Repetitive Problems
+Any problem where the depth is unknown or variable is perfect for recursion.
+Examples:
+Searching in a nested student database
+Traversing a menu or folder structure
