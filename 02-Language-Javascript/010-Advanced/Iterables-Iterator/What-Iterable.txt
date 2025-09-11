@@ -1,0 +1,18 @@
+An iterable is any object that can be looped over with constructs like:
+
+for...of
+spread operator (...)
+destructuring
+Array.from()
+
+👉 For an object to be iterable, it must implement the Symbol.iterator method, which returns an iterator.
+
+Examples of built-in iterables:
+
+Arrays
+Strings
+Maps
+Sets
+TypedArrays
+arguments object
+DOM collections (like NodeList)
