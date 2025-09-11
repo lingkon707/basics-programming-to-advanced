@@ -1,0 +1,22 @@
+{
+  "ui_prompt": {
+    "idea": "Sign Up and Login pages",
+    "type": "auth_ui",
+    "technologies": ["Next.js", "Tailwind CSS","JavaScript", "JSON"],
+    "design": {
+      "layout": "centered_form",
+      "components": ["input_fields", "buttons", "footer_links"],
+      "style": "modern_minimal"
+    },
+    "order": [
+      "setup project with Next.js and Tailwind CSS",
+      "create signup page component",
+      "create login page component",
+      "add input fields for email and password",
+      "add buttons for primary action and social login",
+      "add footer links for navigation",
+      "apply responsive Tailwind CSS styles"
+    ],
+    "instruction": "Generate frontend code only. Do not explain, just output code."
+  }
+}

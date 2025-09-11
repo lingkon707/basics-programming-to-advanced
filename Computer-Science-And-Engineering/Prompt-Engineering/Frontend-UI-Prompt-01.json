@@ -1,0 +1,28 @@
+{
+"ui_prompt": {
+"idea": "Sign Up and Login pages",
+"type": "auth_ui",
+"technologies": ["Next.js", "Tailwind CSS", "JavaScript"],
+"Route": "nextjs app route",
+"design": {
+"layout": "",
+"components": [],
+"additional": ""
+},
+"order": [
+"setup project with Next.js and Tailwind CSS",
+"create signup page component",
+"create login page component",
+"add input fields for email and password",
+"add buttons for primary action and social login",
+"add footer links for navigation",
+"apply responsive Tailwind CSS styles"
+],
+"instructions": {
+"output": "write code only",
+"format": "no explanation, no comments, just raw code",
+"include": "at the top of output, show file/folder list (most of the time use .jsx not .js | if you use big/medium data: create json, not object | keep JSON in public folder"
+}
+}
+}
+

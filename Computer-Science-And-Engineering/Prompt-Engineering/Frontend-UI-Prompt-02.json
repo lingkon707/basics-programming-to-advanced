@@ -1,0 +1,27 @@
+{
+"ui_prompt": {
+"idea": "France History",
+"type": "history_content",
+"technologies": ["Next.js", "Tailwind CSS", "JavaScript"],
+"Route": "nextjs app route",
+"design": {
+"layout": "",
+"components": [],
+"additional": ""
+},
+"order": [
+"setup project with Next.js and Tailwind CSS",
+"create homepage with link to history page",
+"create France history page component",
+"load history data from JSON in public folder | import , Not fetch",
+"display sections with headings, paragraphs, timeline",
+"add responsive Tailwind CSS styles"
+],
+"instructions": {
+"output": "write code only",
+"format": "no explanation, no comments, just raw code",
+"include": "at the top of output, show file/folder list (most of the time use .jsx _ not .js | if you use big/medium data: create json, not object | keep JSON in public folder"
+}
+}
+}
+
