@@ -1,0 +1,62 @@
+DSA Topics Classification
+
+Easier Topics
+-------------
+- Time Complexity (Big-O basics)
+- Space Complexity
+- Arrays
+- Strings
+- Linked Lists
+  - Singly Linked List
+  - Doubly Linked List
+- Stacks
+- Queues (Simple, Circular)
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Recursion basics
+- Tree Traversals (basic: Inorder, Preorder, Postorder, Level Order)
+- Graph Representations (Adjacency Matrix/List basics)
+- DFS & BFS (conceptual intro)
+- Two Pointers Technique
+- Sliding Window Technique
+- Bit Manipulation (intro)
+
+Harder Topics
+-------------
+- Recurrence Relations
+- Circular Linked List
+- Priority Queue
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Counting Sort
+- Radix Sort
+- Hash Tables
+- Collision Handling (Chaining, Open Addressing)
+- Binary Search Tree (BST)
+- AVL Tree
+- Heap (Min-Heap, Max-Heap)
+- Trie (Prefix Tree)
+- Shortest Path (Dijkstra, Bellman-Ford)
+- Minimum Spanning Tree (Prim’s, Kruskal’s)
+- Topological Sorting
+- Union-Find (Disjoint Set Union)
+- Segment Tree
+- Fenwick Tree (Binary Indexed Tree)
+- Sparse Table
+- Disjoint Set with Path Compression
+- Divide and Conquer (advanced)
+- Greedy Algorithms
+- Dynamic Programming (DP)
+  - Fibonacci (DP version)
+  - Knapsack
+  - Longest Common Subsequence (LCS)
+  - Matrix Chain Multiplication
+- Backtracking
+  - N-Queens
+  - Rat in a Maze
+  - Sudoku Solver
+- Amortized Analysis
