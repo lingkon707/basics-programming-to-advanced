@@ -1,0 +1,17 @@
+{
+  "YouTubeChannel": {
+    "Niche": "Life is equation. Learning the dot and chains of life - where philosophy meets logic.",
+    "Script": {
+      "TodaySubject": "",
+      "OutputStyle": "paragraph storytelling, easy to follow",
+      "Duration": "4 minutes",
+      "Variation": "",
+      "Context": "podcast conversation",
+      "RelationshipType": "casual",
+      "ParagraphDesign": "Explain ideas using clear cause-and-effect. Show life as a chain of real consequences: real action + real circumstance = real outcome. Keep examples short, relatable, and grounded in everyday social, psychological, or philosophical context.",
+      "MainPurpose": "Educate and guide listeners to make better decisions in life",
+      "AudienceType": "mostly non-native English speakers, looking for simple and practical understanding",
+      "EquationStyle": "Use real-life cause-and-effect to show outcomes. Avoid repeating words like 'math', 'number', or 'variable'. Use concise sentences and short examples for clarity. Show both immediate and long-term consequences when relevant."
+    }
+  }
+}
