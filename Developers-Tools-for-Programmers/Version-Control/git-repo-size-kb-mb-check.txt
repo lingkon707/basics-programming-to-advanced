@@ -1,0 +1,5 @@
+CMD:
+git count-objects -vH
+
+Bash:
+du -sh .
