@@ -1,0 +1,2 @@
+let team = ["Alice","Bob","Charlie"];
+team.forEach(member => console.log(member + " assigned task"));

@@ -1,0 +1,3 @@
+let projectComplete = false;
+let reviewPending = true;
+console.log(projectComplete || reviewPending ? "Update manager" : "Do nothing");

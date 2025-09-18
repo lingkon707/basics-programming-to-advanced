@@ -1,0 +1,3 @@
+let vegetarian = false;
+if(vegetarian) console.log("Make salad");
+else console.log("Cook chicken");

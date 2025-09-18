@@ -1,0 +1,6 @@
+let weather = "rainy";
+switch(weather){
+    case "sunny": console.log("Wear sunglasses"); break;
+    case "rainy": console.log("Take umbrella"); break;
+    default: console.log("Wear casual"); 
+}

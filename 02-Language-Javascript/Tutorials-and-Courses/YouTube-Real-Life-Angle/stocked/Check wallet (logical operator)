@@ -1,0 +1,3 @@
+let cash = 50;
+let card = true;
+console.log(cash > 0 || card ? "Can buy" : "Cannot buy");

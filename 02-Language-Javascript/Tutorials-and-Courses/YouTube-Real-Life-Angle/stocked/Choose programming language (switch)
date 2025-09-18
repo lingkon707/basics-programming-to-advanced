@@ -1,0 +1,6 @@
+let language = "JavaScript";
+switch(language){
+    case "JavaScript": console.log("Work on web app"); break;
+    case "Python": console.log("Work on AI project"); break;
+    default: console.log("Learn basics");
+}

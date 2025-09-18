@@ -1,0 +1,3 @@
+let income = 2000;
+let expense = 1800;
+console.log(income > expense ? "Save money" : "Reduce spending");

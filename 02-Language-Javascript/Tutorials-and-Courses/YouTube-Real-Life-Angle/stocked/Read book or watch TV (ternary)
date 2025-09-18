@@ -1,0 +1,2 @@
+let bored = true;
+console.log(bored ? "Watch TV" : "Read a book");

@@ -1,0 +1,6 @@
+let store = "grocery";
+switch(store){
+    case "grocery": console.log("Go to grocery store"); break;
+    case "clothing": console.log("Go to clothing store"); break;
+    default: console.log("Check online");
+}

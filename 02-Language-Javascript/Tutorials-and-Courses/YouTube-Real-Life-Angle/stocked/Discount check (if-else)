@@ -1,0 +1,3 @@
+let isSale = true;
+if(isSale) console.log("Use discount");
+else console.log("Pay full price");

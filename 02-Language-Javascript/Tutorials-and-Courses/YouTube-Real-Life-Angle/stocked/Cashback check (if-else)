@@ -1,0 +1,3 @@
+let boughtOnline = true;
+if(boughtOnline) console.log("Get cashback");
+else console.log("No cashback");

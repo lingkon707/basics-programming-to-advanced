@@ -1,0 +1,2 @@
+let morning = true;
+console.log(morning ? "Drink coffee" : "Drink tea");

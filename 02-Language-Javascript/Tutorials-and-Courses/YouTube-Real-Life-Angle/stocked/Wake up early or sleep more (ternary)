@@ -1,0 +1,3 @@
+let alarmRang = true;
+let tired = false;
+console.log(alarmRang && !tired ? "Get up!" : "Sleep more");

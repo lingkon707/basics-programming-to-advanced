@@ -1,0 +1,3 @@
+let reportDone = false;
+if(reportDone) console.log("Send report");
+else console.log("Finish report first");

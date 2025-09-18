@@ -1,0 +1,2 @@
+let finishedAssignment = true;
+console.log(finishedAssignment ? "Submit now" : "Finish first");

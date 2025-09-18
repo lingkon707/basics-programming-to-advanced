@@ -1,0 +1,6 @@
+let subject = "Math";
+switch(subject){
+    case "Math": console.log("Do exercises"); break;
+    case "History": console.log("Read notes"); break;
+    default: console.log("Review general subjects");
+}

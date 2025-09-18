@@ -1,0 +1,2 @@
+let practiceTime = true;
+console.log(practiceTime ? "Code daily" : "Plan tomorrow");

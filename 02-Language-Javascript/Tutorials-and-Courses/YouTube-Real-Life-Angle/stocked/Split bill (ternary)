@@ -1,0 +1,3 @@
+let friendsCount = 3;
+let totalBill = 90;
+console.log(friendsCount ? totalBill / friendsCount : totalBill);

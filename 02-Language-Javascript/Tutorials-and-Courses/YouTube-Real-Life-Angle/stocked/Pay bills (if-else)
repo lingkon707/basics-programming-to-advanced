@@ -1,0 +1,3 @@
+let billDue = true;
+if(billDue) console.log("Pay now");
+else console.log("No bills today");

@@ -1,0 +1,3 @@
+let weatherGood = true;
+let freeTime = false;
+console.log(weatherGood && freeTime ? "Go jogging" : "Stay home");

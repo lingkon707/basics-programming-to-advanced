@@ -1,0 +1,2 @@
+let itemInStock = false;
+console.log(itemInStock ? "Add to cart" : "Check later");

@@ -1,0 +1,3 @@
+let eggsAvailable = true;
+if (eggsAvailable) console.log("Make omelette");
+else console.log("Eat cereal");

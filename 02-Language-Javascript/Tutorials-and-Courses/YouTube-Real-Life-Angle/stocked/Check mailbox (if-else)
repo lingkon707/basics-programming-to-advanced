@@ -1,0 +1,3 @@
+let mailArrived = false;
+if (mailArrived) console.log("Check your mail");
+else console.log("Nothing today");

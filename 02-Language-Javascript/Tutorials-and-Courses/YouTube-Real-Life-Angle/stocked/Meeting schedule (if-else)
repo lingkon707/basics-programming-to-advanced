@@ -1,0 +1,3 @@
+let meetingToday = true;
+if(meetingToday) console.log("Prepare presentation");
+else console.log("Work on project");

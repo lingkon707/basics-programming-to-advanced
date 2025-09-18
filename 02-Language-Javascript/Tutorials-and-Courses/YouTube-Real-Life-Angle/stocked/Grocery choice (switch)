@@ -1,0 +1,6 @@
+let grocery = "milk";
+switch(grocery){
+    case "milk": console.log("Buy milk"); break;
+    case "bread": console.log("Buy bread"); break;
+    default: console.log("Check other items");
+}

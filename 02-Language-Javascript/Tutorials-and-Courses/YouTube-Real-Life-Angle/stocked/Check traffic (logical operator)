@@ -1,0 +1,3 @@
+let peakHour = true;
+let carBroken = false;
+console.log(peakHour && !carBroken ? "Take car" : "Use bike");

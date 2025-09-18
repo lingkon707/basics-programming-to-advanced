@@ -1,0 +1,3 @@
+let onlineClass = true;
+let internetWorking = false;
+console.log(onlineClass && internetWorking ? "Attend class" : "Record session");
