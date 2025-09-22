@@ -1,0 +1,5 @@
+first keep a image in folder.
+rename: enhance.png
+
+then run terminal:
+py main.py
