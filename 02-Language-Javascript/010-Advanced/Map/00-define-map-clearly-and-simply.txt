@@ -1,0 +1,24 @@
+What is map() in JavaScript?
+
+The map() method is a built-in array function in JavaScript.
+It is used to transform each element of an array and create a new array with the results.
+
+👉 Important points:
+
+It does not change the original array.
+
+It always returns a new array of the same length.
+
+You give it a function (callback) that runs on every element.
+
+Basic Syntax
+array.map(function(element, index, array) {
+  // return new value for this element
+})
+
+
+element → current item in the array
+
+index → position of the item (0, 1, 2, …)
+
+array → the whole array being processed
