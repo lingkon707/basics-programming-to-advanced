@@ -1,4 +1,4 @@
-let name = "Ali";
-if (name === "Ali") {
-  console.log("Hello Ali!");
+let names = "Ali";
+if (names === "Ali") {
+  console.log("Hello Ali Khan!");
 }
