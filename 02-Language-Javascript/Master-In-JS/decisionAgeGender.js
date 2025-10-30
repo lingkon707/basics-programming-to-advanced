@@ -1,5 +1,5 @@
 let people = [
-  { name: "Amina", gender: "female", age: 62 },
+  { name: "Rokeya", gender: "female", age: 62 },
   { name: "Rahim", gender: "male", age: 65 },
   { name: "Sara", gender: "female", age: 45 },
   { name: "Kamal", gender: "male", age: 58 }
