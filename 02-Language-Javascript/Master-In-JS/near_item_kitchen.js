@@ -1,4 +1,4 @@
-// main.js
+
 
 // Kitchen object with items and their distance from hands (in cm)
 const kitchen = {
