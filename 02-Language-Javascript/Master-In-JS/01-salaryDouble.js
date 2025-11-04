@@ -1,7 +1,7 @@
 const account = {
   name: "John Doe",
   salary: 30000,
-  accountAgeYears: 2 // change this to test
+  accountAgeYears: 2
 };
 
 if (account.accountAgeYears > 1) {
