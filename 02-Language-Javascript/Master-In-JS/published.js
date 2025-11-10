@@ -2,3 +2,5 @@ var punishments = ["Detention", "Extra Homework", "Writing Lines", "Verbal Warni
 for(var i = 0; i < punishments.length; i++){
     console.log(punishments[i]);
 }
+
+// punishment system
