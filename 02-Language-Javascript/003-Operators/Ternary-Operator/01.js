@@ -1,4 +1,4 @@
-// Friend example: Does a friend have enough mangoes to share?
+// Friend example_: Does a friend have enough mangoes to share?
 let mangoes = 8;
 let neededMangoes = 10;
 
