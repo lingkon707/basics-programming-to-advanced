@@ -1,5 +1,3 @@
-
-
 // 1. Check if farmer entered a name
 function checkFarmerName() {
   const name = document.getElementById("farmerName").value;
