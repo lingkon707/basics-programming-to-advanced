@@ -1,3 +1,5 @@
+// my code 
+
 const account = {
   name: "John Doe",
   salary: 30000,
