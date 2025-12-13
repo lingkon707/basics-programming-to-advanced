@@ -1,4 +1,4 @@
-1–10: Health & Fitness
+1–10: Health and Fitness
 
 Morning exercise
 
