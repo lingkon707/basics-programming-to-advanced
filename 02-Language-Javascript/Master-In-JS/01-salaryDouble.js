@@ -1,9 +1,9 @@
 // my code base
 
 const account = {
-  name: "John Doe",
-  salary: 30000,
-  accountAgeYears: 2
+  name: "Reahmi",
+  salary: 40000,
+  accountAgeYears: 3
 };
 
 if (account.accountAgeYears > 1) {
