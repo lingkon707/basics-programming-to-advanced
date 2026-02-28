@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Smart Budget Planner</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        padding: 20px;
+    }
+
+    .app {
+        max-width: 650px;
+        margin: auto;
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .income-box {
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    .row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row input {
+        flex: 1;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background: #667eea;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        opacity: 0.9;
+    }
+
+    .summary {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        background: #f3f6ff;
+    }
+
+    .progress-bar {
+        height: 12px;
+        background: #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 8px;
+    }
+
+    .progress-fill {
+        height: 100%;
+        width: 0%;
+        background: #667eea;
+        transition: 0.4s;
+    }
+
+    .status {
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    .over {
+        color: red;
+    }
+
+    .good {
+        color: green;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="app">
+    <h2>💰 Smart Budget Planner (BDT)</h2>
+
+    <div class="income-box">
+        <label>Total Income (BDT)</label>
+        <input type="number" id="income" placeholder="Enter total income">
+    </div>
+
+    <div id="fields">
+        <div class="row">
+            <input type="text" placeholder="Category Name">
+            <input type="number" placeholder="Percentage">
+        </div>
+    </div>
+
+    <button onclick="addField()">+ Add Category</button>
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result" class="summary"></div>
+</div>
+
+<script>
+
+function addField() {
+    const container = document.getElementById("fields");
+    const row = document.createElement("div");
+    row.className = "row";
+
+    row.innerHTML = `
+        <input type="text" placeholder="Category Name">
+        <input type="number" placeholder="Percentage">
+    `;
+
+    container.appendChild(row);
+}
+
+function formatBDT(amount) {
+    return amount.toLocaleString('en-BD') + " BDT";
+}
+
+function calculate() {
+
+    const income = parseFloat(document.getElementById("income").value);
+    const rows = document.querySelectorAll("#fields .row");
+
+    if (!income || income <= 0) {
+        alert("Enter valid income.");
+        return;
+    }
+
+    let totalPercent = 0;
+    let totalMoney = 0;
+    let output = "<h3>Breakdown</h3>";
+
+    rows.forEach(row => {
+        const name = row.children[0].value;
+        const percent = parseFloat(row.children[1].value);
+
+        if (name && percent > 0) {
+            const money = (income * percent) / 100;
+            totalPercent += percent;
+            totalMoney += money;
+            output += `<p>${name} (${percent}%) → ${formatBDT(money)}</p>`;
+        }
+    });
+
+    const remainingMoney = income - totalMoney;
+    const remainingPercent = 100 - totalPercent;
+
+    let statusText = "";
+    let statusClass = "";
+
+    if (totalPercent > 100) {
+        statusText = "Over Budget!";
+        statusClass = "over";
+    } else if (totalPercent === 100) {
+        statusText = "Perfectly Balanced ✔";
+        statusClass = "good";
+    } else {
+        statusText = "Under 100% (Money Remaining)";
+        statusClass = "good";
+    }
+
+    output += `
+        <hr>
+        <p><strong>Total Used:</strong> ${totalPercent}%</p>
+        <p><strong>Total Used Money:</strong> ${formatBDT(totalMoney)}</p>
+        <p><strong>Remaining:</strong> ${remainingPercent}% (${formatBDT(remainingMoney)})</p>
+
+        <div class="progress-bar">
+            <div class="progress-fill" style="width:${Math.min(totalPercent,100)}%"></div>
+        </div>
+
+        <p class="status ${statusClass}">${statusText}</p>
+    `;
+
+    document.getElementById("result").innerHTML = output;
+}
+
+</script>
+
+</body>
+</html>
