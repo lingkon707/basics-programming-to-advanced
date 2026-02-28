@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Goal Target Planner</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        padding: 20px;
+    }
+
+    .app {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background: #11998e;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        opacity: 0.9;
+    }
+
+    .result {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        background: #f3f3f3;
+    }
+
+    .progress-bar {
+        height: 14px;
+        background: #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+    .progress-fill {
+        height: 100%;
+        width: 0%;
+        background: #11998e;
+        transition: 0.4s;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="app">
+    <h2>🎯 Goal Target Planner (BDT)</h2>
+
+    <label>Goal Name</label>
+    <input type="text" id="goalName" placeholder="Example: Buy Laptop">
+
+    <label>Total Target Amount (BDT)</label>
+    <input type="number" id="targetAmount" placeholder="80000">
+
+    <label>Monthly Saving Amount (BDT)</label>
+    <input type="number" id="monthlySaving" placeholder="10000">
+
+    <button onclick="calculateGoal()">Calculate Plan</button>
+
+    <div id="output" class="result"></div>
+</div>
+
+<script>
+
+function formatBDT(amount) {
+    return amount.toLocaleString('en-BD') + " BDT";
+}
+
+function calculateGoal() {
+
+    const goalName = document.getElementById("goalName").value;
+    const target = parseFloat(document.getElementById("targetAmount").value);
+    const monthly = parseFloat(document.getElementById("monthlySaving").value);
+
+    if (!goalName || !target || !monthly || target <= 0 || monthly <= 0) {
+        alert("Fill all fields correctly.");
+        return;
+    }
+
+    const monthsNeeded = Math.ceil(target / monthly);
+    const totalSavedAfterOneMonth = monthly;
+    const percentageFirstMonth = (totalSavedAfterOneMonth / target) * 100;
+
+    const today = new Date();
+    const completionDate = new Date(today.setMonth(today.getMonth() + monthsNeeded));
+
+    const output = `
+        <h3>${goalName}</h3>
+        <p><strong>Total Target:</strong> ${formatBDT(target)}</p>
+        <p><strong>Monthly Saving:</strong> ${formatBDT(monthly)}</p>
+        <p><strong>Months Needed:</strong> ${monthsNeeded} months</p>
+        <p><strong>Estimated Completion:</strong> ${completionDate.toDateString()}</p>
+
+        <div class="progress-bar">
+            <div class="progress-fill" style="width:${Math.min(percentageFirstMonth,100)}%"></div>
+        </div>
+
+        <p>After 1 month you complete ${percentageFirstMonth.toFixed(2)}% of your goal.</p>
+    `;
+
+    document.getElementById("output").innerHTML = output;
+}
+
+</script>
+
+</body>
+</html>
