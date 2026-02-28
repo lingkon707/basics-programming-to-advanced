@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Investment With Percentage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .row input {
+            width: 50%;
+        }
+
+        .result {
+            margin-top: 20px;
+            background: #eef2f7;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .warning {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Investment With Percentage (BDT)</h2>
+
+    <div id="investmentFields">
+        <div class="row">
+            <input type="text" placeholder="Name (e.g. Tax)">
+            <input type="number" placeholder="Percentage (e.g. 10)">
+        </div>
+    </div>
+
+    <button onclick="addField()">Add New</button>
+
+    <input type="number" id="totalIncome" placeholder="Total Income (BDT)">
+
+    <button onclick="calculate()">Submit</button>
+
+    <div id="output" class="result"></div>
+</div>
+
+<script>
+function addField() {
+    const container = document.getElementById("investmentFields");
+
+    const row = document.createElement("div");
+    row.className = "row";
+
+    row.innerHTML = `
+        <input type="text" placeholder="Name">
+        <input type="number" placeholder="Percentage">
+    `;
+
+    container.appendChild(row);
+}
+
+function calculate() {
+    const rows = document.querySelectorAll("#investmentFields .row");
+    const totalIncome = parseFloat(document.getElementById("totalIncome").value);
+
+    if (!totalIncome || totalIncome <= 0) {
+        alert("Please enter valid total income.");
+        return;
+    }
+
+    let totalPercent = 0;
+    let resultHTML = "";
+    
+    rows.forEach(row => {
+        const name = row.children[0].value;
+        const percent = parseFloat(row.children[1].value);
+
+        if (name && percent > 0) {
+            totalPercent += percent;
+            const money = (totalIncome * percent) / 100;
+            resultHTML += `<p>${name} (${percent}%) = ${money.toFixed(2)} BDT</p>`;
+        }
+    });
+
+    const remainingPercent = 100 - totalPercent;
+    const remainingMoney = (totalIncome * remainingPercent) / 100;
+
+    resultHTML += `<hr>`;
+    resultHTML += `<p><strong>Total Used Percentage:</strong> ${totalPercent}%</p>`;
+
+    if (totalPercent > 100) {
+        resultHTML += `<p class="warning">Percentage exceeds 100%! Please adjust.</p>`;
+    } else {
+        resultHTML += `<p><strong>Remaining Percentage:</strong> ${remainingPercent}%</p>`;
+        resultHTML += `<p><strong>Remaining Money:</strong> ${remainingMoney.toFixed(2)} BDT</p>`;
+    }
+
+    document.getElementById("output").innerHTML = resultHTML;
+}
+</script>
+
+</body>
+</html>
