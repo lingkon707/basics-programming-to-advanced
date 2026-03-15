@@ -1,0 +1,11 @@
+{
+"prompt": "Create 21+ unique JavaScript ES5 examples on ' ATLANTIC OCEAN ' subject.",
+"rules": [
+"First list all file names with two-digit numbering and .js extension",
+"Use Git Bash touch commands at the top",
+"Each file must represent one logical example",
+"Write clean, professional JavaScript code for every file",
+"No frameworks, only vanilla JavaScript"
+],
+"output": "Step 1: file list → Step 2: code for each file"
+}
