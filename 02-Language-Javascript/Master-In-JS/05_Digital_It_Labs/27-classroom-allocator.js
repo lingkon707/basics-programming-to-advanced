@@ -1,3 +1,5 @@
+// classroom allocator
+
 var availableRooms = 5;
 
 function allocateRoom() {
