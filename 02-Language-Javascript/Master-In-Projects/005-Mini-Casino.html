@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Casino (Demo Only)</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b132b;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .app {
+      width: 380px;
+      background: #1c2541;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      text-align: center;
+      color: #fcca46;
+      margin-bottom: 10px;
+    }
+
+    .note {
+      font-size: 12px;
+      text-align: center;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .user-select {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    select, input, button {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: none;
+      margin-top: 5px;
+    }
+
+    select, input {
+      background: #fff;
+      color: #000;
+    }
+
+    button {
+      background: #fcca46;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #ffd966;
+    }
+
+    .wallet {
+      background: #3a506b;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .result {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .win {
+      color: #4cd137;
+    }
+
+    .lose {
+      color: #e84118;
+    }
+  </style>
+</head>
+<body>
+
+<div class="app">
+  <h1>🎰 Mini Casino</h1>
+  <div class="note">Demo only · No real money · Educational UI</div>
+
+  <!-- User Selection -->
+  <div class="user-select">
+    <select id="userSelect">
+      <option value="user1">তুহিন বাবু</option>
+      <option value="user2">লিংকন</option>
+    </select>
+  </div>
+
+  <!-- Wallet -->
+  <div class="wallet" id="walletDisplay">
+    Balance: ৳3000
+  </div>
+
+  <!-- Bet Input -->
+  <label>Bet Amount</label>
+  <input type="number" id="betAmount" placeholder="Enter bet (min 100)" />
+
+  <!-- Play Button -->
+  <button onclick="playGame()">🎲 Flip Coin</button>
+
+  <!-- Result -->
+  <div class="result" id="resultText"></div>
+</div>
+
+<script>
+  // ------------------------------
+  // App State (Frontend Only)
+  // ------------------------------
+  const users = {
+    user1: { name: "User 1", balance: 3000 },
+    user2: { name: "User 2", balance: 3000 }
+  };
+
+  const userSelect = document.getElementById("userSelect");
+  const walletDisplay = document.getElementById("walletDisplay");
+  const resultText = document.getElementById("resultText");
+
+  // Update wallet when user changes
+  userSelect.addEventListener("change", updateWallet);
+
+  function updateWallet() {
+    const currentUser = userSelect.value;
+    walletDisplay.innerText =
+      "Balance: ৳" + users[currentUser].balance;
+    resultText.innerHTML = "";
+  }
+
+  updateWallet();
+
+  // ------------------------------
+  // Game Logic (Fair & Simple)
+  // ------------------------------
+  function playGame() {
+    const currentUser = userSelect.value;
+    const bet = parseInt(document.getElementById("betAmount").value);
+
+    if (!bet || bet < 100) {
+      alert("Minimum bet is ৳100");
+      return;
+    }
+
+    if (bet > users[currentUser].balance) {
+      alert("Not enough balance");
+      return;
+    }
+
+    // 50/50 fair coin flip
+    const win = Math.random() < 0.5;
+
+    if (win) {
+      users[currentUser].balance += bet;
+      resultText.innerHTML =
+        "🎉 You WIN! +" + bet;
+      resultText.className = "result win";
+    } else {
+      users[currentUser].balance -= bet;
+      resultText.innerHTML =
+        "😞 You LOSE! -" + bet;
+      resultText.className = "result lose";
+    }
+
+    updateWallet();
+  }
+</script>
+
+</body>
+</html>
