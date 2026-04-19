@@ -1,0 +1,1 @@
+console.log("Welcome to Local Resturent Management System");
