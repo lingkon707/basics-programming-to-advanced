@@ -1,0 +1,34 @@
+Subject / Project Theme: 
+
+Instructions:
+
+- Use pure JavaScript (ES5 only)
+  No ES6+ features are allowed (no let, const, arrow functions, classes, promises, modules, etc.)
+
+- Generate 31+ separate JavaScript files
+  File numbering must start from 01 and continue sequentially.
+
+- Each file must contain:
+  - Minimum 10–12 lines of meaningful code
+  - Heavy logic and calculation-based operations
+  - Real-world, project-oriented functionality
+  - No simple or beginner-level examples
+
+- Code complexity rules:
+  - Use only basic JavaScript concepts (variables, loops, conditions, functions, arrays, objects)
+  - Do not use advanced JavaScript chapter concepts
+  - Logic must be written manually (no shortcuts or library-based logic)
+
+- File naming rules:
+  - Format: 01-RealisticFileName.js
+  - File names must represent real project functionality
+  - Do NOT use placeholder names like example.js, test.js, or demo.js
+
+- Output format (strict):
+  - Display each file separately
+  - Start with the filename as a heading
+  - Provide only JavaScript code for that file
+  - Do not add explanations unless explicitly requested
+
+Goal:
+Produce industry-style, calculation-heavy ES5 JavaScript code suitable for large-scale practice, evaluation, and real-world learning.
